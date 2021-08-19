@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36B79F6D26CDAEC6008F9B2B /* OptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B79F6C26CDAEC6008F9B2B /* OptionsView.swift */; };
+		36B79F6F26CDB24D008F9B2B /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B79F6E26CDB24D008F9B2B /* Options.swift */; };
 		62815A2526C9ED3E00D027C5 /* Simpsonfont.otf in Resources */ = {isa = PBXBuildFile; fileRef = 62815A2426C9ED3E00D027C5 /* Simpsonfont.otf */; };
 		62B2C82226C76B0000690E9A /* SimpsonsQuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B2C82126C76B0000690E9A /* SimpsonsQuotesApp.swift */; };
 		62B2C82426C76B0000690E9A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B2C82326C76B0000690E9A /* HomeView.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36B79F6C26CDAEC6008F9B2B /* OptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsView.swift; sourceTree = "<group>"; };
+		36B79F6E26CDB24D008F9B2B /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
 		62815A2426C9ED3E00D027C5 /* Simpsonfont.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Simpsonfont.otf; sourceTree = "<group>"; };
 		62B2C81E26C76B0000690E9A /* SimpsonsQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpsonsQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62B2C82126C76B0000690E9A /* SimpsonsQuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonsQuotesApp.swift; sourceTree = "<group>"; };
@@ -101,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				62B2C82326C76B0000690E9A /* HomeView.swift */,
+				36B79F6C26CDAEC6008F9B2B /* OptionsView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -109,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				62B2C83326C7847200690E9A /* Quote.swift */,
+				36B79F6E26CDB24D008F9B2B /* Options.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -202,8 +208,10 @@
 				62D5776B26CA3C2300C5A880 /* Extensions.swift in Sources */,
 				62B2C82426C76B0000690E9A /* HomeView.swift in Sources */,
 				62B2C83426C7847200690E9A /* Quote.swift in Sources */,
+				36B79F6D26CDAEC6008F9B2B /* OptionsView.swift in Sources */,
 				62B2C82226C76B0000690E9A /* SimpsonsQuotesApp.swift in Sources */,
 				62B2C83926C857A200690E9A /* DataService.swift in Sources */,
+				36B79F6F26CDB24D008F9B2B /* Options.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

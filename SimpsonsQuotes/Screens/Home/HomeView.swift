@@ -13,6 +13,8 @@ struct HomeView: View {
     
     @StateObject var viewModel = ViewModel()
     @State var charIsDisplayed = false
+    @State var optionsAreDisplayed = false
+    @State var characterName = ""
 
     var body: some View {
         
@@ -23,6 +25,7 @@ struct HomeView: View {
                 .ignoresSafeArea()
             
             VStack {
+                Text(char)
                 Spacer()
                 Text(viewModel.quotes.count > 0 ? viewModel.quotes[0].quote : "")
                     .frame(width: 350, height: 200)
@@ -43,6 +46,10 @@ struct HomeView: View {
                         .frame(width: 200, height: 300)
                 Spacer()
                 
+                OptionsView()
+                
+                Spacer()
+                
                 Button(action: { showCharacter() }, label: {
                     Text(!charIsDisplayed ? "Show  character" : "Next Quote")
                         .font(.custom("Simpsonfont", size: 16))
@@ -52,6 +59,7 @@ struct HomeView: View {
                 .cornerRadius(20)
                 .foregroundColor(.primary)
                 .padding()
+                .shadow(color: .black, radius: 5, x: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/, y: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/)
                 
                 Spacer()
             }
